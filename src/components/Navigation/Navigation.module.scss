@@ -1,0 +1,11 @@
+.nav {
+	@apply fixed left-0 right-0 flex justify-center items-center h-[50px] px-6 bg-blue-500 text-2xl font-semibold;
+}
+.list {
+	@apply list-none mx-4;
+	a {
+		&:hover {
+			@apply text-white transition-all
+		}
+	}
+}

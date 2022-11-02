@@ -1,0 +1,35 @@
+.users {
+	@apply flex flex-col;
+}
+.heading {
+	 @apply text-4xl  text-center mb-4
+}
+.input {
+	@apply 
+        w-full
+        px-3
+		  mb-3 
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none;
+}
+.user {
+	@apply flex gap-20 py-5
+}
+.user-col {
+	@apply flex flex-col
+}
+.user_name {
+	@apply flex font-light text-3xl
+}
+.user_component {
+	@apply flex
+}

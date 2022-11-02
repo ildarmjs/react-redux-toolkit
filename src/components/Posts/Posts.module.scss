@@ -1,0 +1,10 @@
+.post_list {
+	@apply list-none border rounded text-center border-black p-2
+}
+.post_ul .post_list:nth-child(odd) {
+	@apply bg-red-300
+}
+
+.post_ul .post_list:nth-child(even) {
+	@apply bg-green-300
+}
