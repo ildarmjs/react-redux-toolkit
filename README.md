@@ -12,8 +12,6 @@
 - Html5
 - Css3
   - Tailwind Css
-- JavaScript
-  - Axios
 - TypeScript
 - React
   - React-redux
